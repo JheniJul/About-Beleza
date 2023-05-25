@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+}
+
+header{
+    height: 70vh;
+}
+h1{
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h3{
+    padding: 0px 13px;
+}
+h4{
+    text-decoration: underline;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px; 
+    margin: 56vh 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    list-style:none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 0px 55px;
+    text-decoration: none; 
+    font-size: 17px;
+}
+#a{
+    color: #f6a68d;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#intro{
+    float: left;
+    width: 65%;
+    transform: translateX(13%);
+    padding: 70px 0px;
+}
+
+#nosso, #agende, #promocao{
+    float: left;
+    width: 65%;
+    transform: translateX(13%);
+    padding: 0px 0px 60px 0px;
+}
+
+.faixa{
+    position: relative;
+    color: #f6a68d;
+    background-color: black;
+    border-radius: 4px;
+}
+.quadrado1{
+    background-color: #f6a68d;
+    color: whitesmoke;
+    padding: 20px 40px;
+    border-radius: 6px ;
+}
+.quadrado2{
+    background-color: #bf9f88;
+    color: whitesmoke;
+    padding: 20px 40px;
+    border-radius: 6px ;
+}
+aside{
+    float: right;
+    width: 18%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    color: whitesmoke;
+}
+aside img{
+    width: 230px;
+    height: 230px;
+    padding: 2px 0px;
+}
+
+aside p{
+    padding: 10px;
+    font-size: 15px;
+    color: #f6a68d;
+}
+
+footer{
+    background-color: black;
+    color: #f6a68d;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes{
+    display: inline-block;
+    width: 30%;
+}
+
+footer #pe{
+    padding: 20px 60px;
+    line-height: 25px;
+}
+
+footer img{
+    border-radius: 50%;
+    max-width: 50px;
+    height: auto;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+    height: auto;
+}
+
+#header{
+    height: 70vh;
+}
+h1{
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+article h2{
+    padding: 45px 0px 10px 0px;
+}
+h3{
+    padding: 0px 13px;
+}
+h4{
+    text-decoration: underline;
+    color: black;
+}
+#menu{
+    display: flex;
+    height: 269.4vh;
+    float: left;
+    background-color: black;
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+}
+nav ul li {
+    list-style:none;
+    padding: 10px 10px;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none; 
+    font-size: 17px;
+}
+    
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#cabeca{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 65%;
+    transform: translateX(22%);
+    padding: 60px 16px;
+    background-color: black;
+    color: #f6a68d;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#texto{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 65%;
+    transform: translateX(26%);
+    padding: 70px 0px;
+}
+#ultima{
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 65%;
+    transform: translateX(26%);
+    padding: 68.5px 0px;
+}
+
+#direita{
+    float: right;
+    width: 16.5%;
+    height: 900%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+}
+#direita img{
+    width: 205px;
+    height: 205px;
+    padding: 2px 0px;
+}
+
+#direita p{
+    padding: 10px;
+    font-size: 15px;
+    color: #f6a68d;
+}
+
+#baixo{
+    background-color: black;
+    color: #f6a68d;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#baixo .redes{
+    display: inline-block;
+    width: 30%;
+}
+
+footer #pe{
+    padding: 20px 60px;
+    line-height: 25px;
+}
+
+footer img{
+    border-radius: 50%;
+    max-width: 50px;
+    height: auto;
+}
